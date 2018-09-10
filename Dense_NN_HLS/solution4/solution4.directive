@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+  <sourceFile>
+    <directive functionName="testCell" label="" functionLabel="">
+      <pragma name="RESOURCE">
+        <option name="variable" value="img->pixel" positionalBoolean="4"/>
+        <option name="core" value="RAM_2P_BRAM"/>
+      </pragma>
+    </directive>
+    <directive functionName="testCell" label="" functionLabel="">
+      <pragma name="INTERFACE">
+        <option name="s_axilite" value="" positionalBoolean="mode"/>
+        <option name="port" value="c->input" positionalBoolean="4"/>
+      </pragma>
+    </directive>
+    <directive functionName="testCell" label="" functionLabel="">
+      <pragma name="INTERFACE">
+        <option name="s_axilite" value="" positionalBoolean="mode"/>
+        <option name="port" value="c->weight" positionalBoolean="4"/>
+      </pragma>
+    </directive>
+    <directive functionName="testCell" label="" functionLabel="">
+      <pragma name="INTERFACE">
+        <option name="s_axilite" value="" positionalBoolean="mode"/>
+        <option name="port" value="c->output" positionalBoolean="4"/>
+      </pragma>
+    </directive>
+    <directive functionName="testCell" label="" functionLabel="">
+      <pragma name="INTERFACE">
+        <option name="s_axilite" value="" positionalBoolean="mode"/>
+        <option name="port" value="c->bias" positionalBoolean="4"/>
+      </pragma>
+    </directive>
+    <directive functionName="testCell" label="" functionLabel="">
+      <pragma name="INTERFACE">
+        <option name="s_axilite" value="" positionalBoolean="mode"/>
+        <option name="port" value="img->pixel" positionalBoolean="4"/>
+      </pragma>
+    </directive>
+    <directive functionName="testCell" label="" functionLabel="">
+      <pragma name="INTERFACE">
+        <option name="s_axilite" value="" positionalBoolean="mode"/>
+        <option name="port" value="target" positionalBoolean="4"/>
+      </pragma>
+    </directive>
+    <directive functionName="testCell" label="" functionLabel="">
+      <pragma name="INTERFACE">
+        <option name="s_axilite" value="" positionalBoolean="mode"/>
+        <option name="port" value="return" positionalBoolean="4"/>
+      </pragma>
+    </directive>
+  </sourceFile>
+  <sourceFile name="Dense_NN/testCell.c">
+    <directive functionName="testCell" label="loop" functionLabel=" ">
+      <pragma name="UNROLL"/>
+    </directive>
+  </sourceFile>
+</AutoPilot:ProjectResources>

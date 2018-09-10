@@ -1,0 +1,54 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="testCell" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="return" positionalBoolean="4"/>
+                <option name="bundle" value="BUS"/>
+            </pragma>
+        </directive>
+        <directive functionName="testCell" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="c-&gt;input" positionalBoolean="4"/>
+                <option name="bundle" value="BUS"/>
+            </pragma>
+        </directive>
+        <directive functionName="testCell" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="c-&gt;output" positionalBoolean="4"/>
+                <option name="bundle" value="BUS"/>
+            </pragma>
+        </directive>
+        <directive functionName="testCell" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="c-&gt;bias" positionalBoolean="4"/>
+                <option name="bundle" value="BUS"/>
+            </pragma>
+        </directive>
+        <directive functionName="testCell" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="img-&gt;pixel" positionalBoolean="4"/>
+                <option name="bundle" value="BUS"/>
+            </pragma>
+        </directive>
+        <directive functionName="testCell" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="c-&gt;weight" positionalBoolean="4"/>
+                <option name="bundle" value="BUS"/>
+            </pragma>
+        </directive>
+        <directive functionName="testCell" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="target" positionalBoolean="4"/>
+                <option name="bundle" value="BUS"/>
+            </pragma>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+
